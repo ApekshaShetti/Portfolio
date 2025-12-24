@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Cloud, Calendar, CheckCircle2 } from "lucide-react";
+import { Calendar, CheckCircle2 } from "lucide-react";
+import Image from "next/image";
 
 const experiences = [
   {
@@ -69,7 +70,14 @@ export default function Experience() {
                   }`}>
                     <div className={`flex flex-col gap-1 mb-4 ${index % 2 === 0 ? "md:items-end" : "md:items-start"}`}>
                         <div className="flex items-center gap-2 text-blue-400 mb-1">
-                            <Cloud fill="currentColor" size={24} />
+                             <div className="relative w-8 h-8 rounded-full overflow-hidden bg-white">
+                                <Image 
+                                    src="/salesforce.jpeg" 
+                                    alt="Salesforce" 
+                                    fill 
+                                    className="object-contain p-0.5"
+                                />
+                            </div>
                             <span className="font-bold tracking-wide uppercase text-sm">Salesforce</span>
                         </div>
                         <h3 className="text-xl md:text-2xl font-bold text-white leading-tight">{exp.role}</h3>

@@ -6,27 +6,27 @@ import { Award, CheckCircle, ExternalLink } from "lucide-react";
 const certifications = [
   {
     name: "Salesforce Certified Platform Administrator",
-    url: "https://trailhead.salesforce.com/en/credentials/platformadministrator"
+    url: "https://drive.google.com/file/d/1VyrwAYNCFEquPjJLRpwUK5I9kQ8lRPli/view?usp=drivesdk"
   },
   {
     name: "Salesforce Certified Platform App Builder",
-    url: "https://trailhead.salesforce.com/en/credentials/platformappbuilder"
+    url: "https://drive.google.com/file/d/1dhyuFRMNgxtGgomMIDWx9oHCHRgK_FgB/view?usp=drivesdk"
   },
   {
     name: "Salesforce Certified Sales Cloud Consultant",
-    url: "https://trailhead.salesforce.com/en/credentials/salescloudconsultant"
+    url: "https://drive.google.com/file/d/1AshsAxg8CkidEQxhCq12U_Zdr5KTlwBE/view?usp=drivesdk"
   },
   {
     name: "Salesforce Certified Agentforce Specialist",
-    url: "https://trailhead.salesforce.com/en/credentials/agentforcespecialist"
+    url: "https://drive.google.com/file/d/1amCrtBYYU7km6q0bWL8axfQ0R3YvKkF6/view?usp=drivesdk"
   },
   {
     name: "Salesforce Certified Platform Developer I",
-    url: "https://trailhead.salesforce.com/en/credentials/platformdeveloperi"
+    url: "https://drive.google.com/file/d/1opWoJ6WuGSC6iim6HeiUUjo0LZhClhlp/view?usp=drivesdk"
   },
   {
     name: "Salesforce Certified Data Cloud Consultant",
-    url: "https://trailhead.salesforce.com/en/credentials/datacloudconsultant"
+    url: "https://drive.google.com/file/d/1hSw7QJtT9sWZUJX6CH-R3MIVdvAZL390/view?usp=drivesdk"
   }
 ];
 
